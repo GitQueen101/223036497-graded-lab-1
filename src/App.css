@@ -1,0 +1,42 @@
+.characters-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+input, select {
+  margin: 10px 5px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.characters-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.characters-list li {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.characters-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.characters-list li p {
+  margin: 5px 0;
+}
+
+.characters-list li p strong {
+  color: #555;
+}
